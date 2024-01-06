@@ -35,23 +35,21 @@ const App = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/Cart">Cart</Link>
+              <Link to="/cart">Cart</Link>
             </li>
             <li>
-              <Link to="/Signup">Sign Up</Link>
+              <Link to="/signup">Sign Up</Link>
             </li>
           </ul>
         </nav>
 
         <hr />
 
-        <Route
-          exact
-          path="/"
-          render={(props) => <Home {...props} addToCart={addToCart} />}
-        />
-        <Route path="/cart" render={(props) => <Cart {...props} cart={cart} />} />
-        <Route path="/signup" component={SignUp} />
+        <Routes>
+          <Route path="/" element={<Home addToCart={addToCart} />} />
+          <Route path="/cart" element={<Cart cart={cart} />} />
+          <Route path="/signup" element={<SignUp />} />
+        </Routes>
       </div>
     </Router>
   );
