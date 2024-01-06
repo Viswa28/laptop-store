@@ -1,0 +1,14 @@
+/* src/components/Cart.css */
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+}
+
+img {
+    max-width: 100px;
+    margin-top: 10px;
+}
