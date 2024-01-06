@@ -1,7 +1,7 @@
 // src/components/SignUp.js
 
 import React from 'react';
-import './components/SignUp.css';
+// import "./components/Signup/Signup"
 // ... rest of the code
 
 const SignUp = () => {

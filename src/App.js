@@ -4,9 +4,10 @@ import './App.css';
 
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Home from './components/Home';
-import Cart from './components/Cart';
-import SignUp from './components/SignUp';
+import Home from "./Components/Home/Home"
+import Cart from "./Components/Cart/Cart"
+import SignUp from './Components/Signup/Signup';
+
 
 const App = () => {
   const [cart, setCart] = useState([]);
@@ -34,10 +35,10 @@ const App = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/cart">Cart</Link>
+              <Link to="/Cart">Cart</Link>
             </li>
             <li>
-              <Link to="/signup">Sign Up</Link>
+              <Link to="/Signup">Sign Up</Link>
             </li>
           </ul>
         </nav>

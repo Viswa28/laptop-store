@@ -1,7 +1,7 @@
 // src/components/Cart.js
 
 import React from 'react';
-import './components/Cart.css';
+// import './components/Cart.css';
 // ... rest of the code
 
 const Cart = ({ cart }) => {

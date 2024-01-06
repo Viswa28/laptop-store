@@ -1,7 +1,6 @@
 // src/components/Home.js
 
 import React from 'react';
-import './components/Home.css';
 // ... rest of the code
 
 const products = [
